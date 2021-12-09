@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="calc">
+        <form>
+            <input type="text" class="screen" id="output-screen" placeholder="00">
+        </form>
+
+        <div class="button">
+            <button type="button" onclick="display('*')" class="func" data-num="*">*</button>
+            <button type="button" onclick="display('/')" class="func" data-num="/">/</button>
+            <button type="button" onclick="display('-')" class="func" data-num="-">-</button>
+            <button type="button" onclick="display('+')" class="func" data-num="+">+</button>
+
+            <button type="button" onclick="display(9)" class="num" data-num="9">9</button>
+            <button type="button" onclick="display(8)" class="num" data-num="8">8</button>
+            <button type="button" onclick="display(7)" class="num" data-num="7">7</button>
+            <button type="button" onclick="display(6)" class="num" data-num="6">6</button>
+            <button type="button" onclick="display(5)" class="num" data-num="5">5</button>
+            <button type="button" onclick="display(4)" class="num" data-num="4">4</button>
+            <button type="button" onclick="display(3)" class="num" data-num="3">3</button>
+            <button type="button" onclick="display(2)" class="num" data-num="2">2</button>
+            <button type="button" onclick="display(1)" class="num" data-num="1">1</button>
+            <button type="button" onclick="display(0)" class="num" data-num="0">0</button>
+            <button type="button" onclick="display('.')" class="num" data-num=".">.</button>
+            <button type="button" onclick="calc()" class="equal" data-num="=">=</button>
+            <button type="button" onclick="cut()" class="cut" data-num="c">C</button>
+        </div>
+    </section>
+    <script src="script.js"></script>    
+</body>
+</html>
