@@ -1,3 +1,3 @@
 # Simple-Calculator
 Simple Calculator - Creat by using html,css &amp; Js......
-(https://github.com/Laviru-Dilshan/Simple-Calculator/blob/main/Screenshot_20211209-165807_Chrome.jpg)
+![Simple-calcualator](https://github.com/Laviru-Dilshan/Simple-Calculator/blob/main/Screenshot_20211209-165807_Chrome.jpg)
