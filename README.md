@@ -1,3 +1,3 @@
 # Simple-Calculator
 Simple Calculator - Creat by using html,css &amp; Js......
-(Screenshot_20211209-165807_Chrome.jpg)
+(/assets/images/Screenshot_20211209-165807_Chrome.jpg)
